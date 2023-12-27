@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import sklearn
 
 # Load the model
 mhs_model = pickle.load(open('modelnew.sav', 'rb'))
